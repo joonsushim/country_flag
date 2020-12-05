@@ -1,0 +1,36 @@
+{
+  "name": "joon/country-flag",
+  "keywords": [
+    "flarum"
+  ],
+  "type": "flarum-extension",
+  "license": "MIT",
+  "require": {
+    "flarum/core": "^0.1.0-beta.8"
+  },
+  "authors": [
+    {
+      "name": "Joon",
+      "email": "joonsu.shim@gmail.com",
+      "role": "Developer"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Joon\\Countryflag\\": "src/"
+    }
+  },
+  "extra": {
+    "flarum-extension": {
+      "title": "Countries Flags",
+      "icon": {
+        "name": "",
+        "backgroundColor": "",
+        "color": ""
+      }
+    },
+    "flagrow": {
+      "discuss": ""
+    }
+  }
+}
